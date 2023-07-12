@@ -1,0 +1,72 @@
+body
+{
+    background-image: url("stopwatch.webp");
+    background-size: cover;
+}
+.container1
+{
+    background-image: linear-gradient(#0c1012,grey,#0c1012);
+}
+.timer1
+{
+    padding-top: 100px;
+    padding-bottom: 0px;
+    padding-left: 570px;
+    font-size:100px;
+    color: black;
+}
+.start-button
+{
+    width: 70px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.stop-button
+{
+    width: 70px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.restart-button
+{
+    width: 70px;
+    height: 70px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+.maindiv
+{
+    display: grid;
+    grid-template-areas: "s11 s21 s31";
+    grid-gap:0px;
+    padding: 0px;
+    margin:0px
+}
+#s1
+{
+    grid-area:s11;
+    margin-left: 590px;
+    padding-top: 2px;
+}
+#s2
+{
+    grid-area:s21;
+    margin-left: -233px;
+    padding-top: 3px;
+}
+#s3
+{
+    grid-area:s31;
+    margin-left: -395px;
+    padding-top: 3px;
+}
+.buttons
+{
+    padding: 0px;
+    margin: 0px;
+}
